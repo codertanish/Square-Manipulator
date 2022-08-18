@@ -1,0 +1,53 @@
+.heading {
+    font-size: 23px;
+    width: 100%;;
+    margin: 0px;
+    box-shadow: 2px 2px 5px lightblue;
+}
+
+        
+.btn-grad {
+    background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97  51%, #DD5E89  100%);
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+  .note {
+      font-size: 10px;
+      color: black;
+  }
+
+  body {
+      font-family: Comic Sans MS;
+      background-image: url("https://thumbs.gfycat.com/PastAcrobaticCopperbutterfly-size_restricted.gif"); 
+    }
+
+  .copy_right_footer {
+      position: fixed;
+      bottom: 0;
+      color: black;
+      width: 100%;
+      background: linear-gradient(90deg, rgba(34,195,176,1) 0%, rgba(0,255,251,1) 6%, rgba(0,255,191,1) 18%, rgba(0,242,255,1) 33%, rgba(0,255,234,1) 52%, rgba(28,197,202,1) 60%, rgba(26,179,214,1) 71%, rgba(0,199,255,1) 78%, rgba(22,155,223,1) 85%, rgba(10,96,228,1) 91%, rgba(11,46,142,1) 100%);
+      line-height: 3;
+      text-align: center;
+     
+  }
+  
+  canvas {
+      border: 5px solid white;
+      border-radius: 20px;
+      box-shadow: 5px 5px 5px grey;
+  }
+ 
